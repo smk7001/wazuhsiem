@@ -39,8 +39,8 @@
 
 ```mermaid
 flowchart LR
-    WIN["🖥️ Windows 10<br/>192.168.1.10"] --- S1
-    UBU["🐧 Ubuntu client<br/>192.168.1.11"] --- S1
+    WIN["Windows 10<br/>192.168.1.10"] --- S1
+    UBU["Ubuntu client<br/>192.168.1.11"] --- S1
     S1["S1 switch<br/>192.168.1.101"] --- S2["S2 switch<br/>192.168.1.102"]
     S2 --- SIEM["Wazuh SIEM<br/>192.168.1.200"]
     S2 --- R1["R1 router<br/>192.168.1.254 | 10.10.10.254"]
